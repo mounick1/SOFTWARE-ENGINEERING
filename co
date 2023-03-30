@@ -1,0 +1,38 @@
+#include<stdio.h>
+void add();
+void sub();
+void mul();
+int main()
+{ 
+	int a,b,c;
+	printf("enter the add values:");
+	scanf("%d%d",&a,&b);
+	c=a+b;
+	printf("%d",c);
+	{
+	void sub();
+	 int main();
+     int a,b,c;
+	printf("enter the sub values:");
+	scanf("%d%d",&a,&b);
+	c=a-b;
+	printf("%d",c);
+	}
+	{
+		void mul();
+        int main();
+        	printf("enter the multi values:");
+	scanf("%d%d",&a,&b);
+	c=a*b;
+	printf("%d",c);
+	}
+	{
+			void div();
+        int main();
+        	printf("enter the divide values:");
+	scanf("%d%d",&a,&b);
+	c=a/b;
+	printf("%d",c);
+	}
+	return 0;
+}
